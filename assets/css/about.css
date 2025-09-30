@@ -1,0 +1,119 @@
+/* starting aboutme-heading */
+
+.aboutme-heading {
+    .container {
+        border-radius: 20px;
+        height: 180px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 40px 0px;
+        position: relative;
+        margin: 60px auto 100px;
+    }
+
+    h3 {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 46px;
+        color: #fff;
+        text-align: center;
+        padding-bottom: 7px;
+    }
+
+    p {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 190%;
+        text-align: center;
+        color: #fff;
+    }
+
+    img {
+        position: absolute;
+        top: 75px;
+        left: 280px;
+    }
+}
+
+/* ending about-heading */
+
+/* starting about-details */
+
+.about-details {
+    .about-details-para {
+        padding-left: 445px;
+        margin-bottom: 105px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 200%;
+        text-align: justify;
+        color: #7a7a7a;
+    }
+
+    .about-details-img1 {
+        margin-top: -215px;
+    }
+    .about-details-img2{
+        position: absolute;
+        top: 53px;
+        left: 314px;
+    }
+
+    .contact-info-container {}
+
+    .contact-table {
+        width: 46%;
+        height: 160px;
+        border-collapse: collapse;
+        color: #333;
+    }
+
+    .contact-table tr {
+        border: none;
+    }
+
+    td {
+        
+    }
+
+    .contact-table td {
+        padding: 6px 0px;
+        border: none;
+        height: 40px;
+        width: 40px;
+    }
+
+    .contact-table .label {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 190%;
+        color: #7a7a7a;
+    }
+
+    .contact-table .value {
+        font-family: var(--font-family);
+        font-size: 19px;
+        line-height: 190%;
+        font-weight: 500;
+        color: #353535;
+    }
+
+    .contact-table .value a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .contact-table .value a:hover {
+        text-decoration: underline;
+    }
+    .btn{
+        padding: 10px 16px 10px 21px;
+        margin:-100px 0px 0px 440px;
+    }
+
+}
