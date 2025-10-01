@@ -74,15 +74,66 @@
         .contact-table {
             width: 50%;
         }
-        .btn{
+
+        .btn {
             margin: 19px 0px 0px 0px;
             padding: 9px 13px 9px 15px;
             font-size: 13px;
         }
 
+        .horizontal {
+            margin-top: 41px;
+            margin-bottom: 39px;
+        }
+
     }
 
     /* ending about details */
+
+    /* starting about-experience */
+
+    .about-experience {
+        .date {
+            display: none;
+        }
+
+        .hidden span {
+            display: none;
+        }
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 40px;
+        }
+
+        .heading {
+            font-size: 15px;
+        }
+
+        .details {
+            font-size: 12px;
+        }
+
+        .about-timeline {
+            padding: 0px 27px 30px 40px;
+            width: 90%;
+        }
+        .about-timeline::before{
+            width: 24px;
+            height: 24px;
+            left: -13px;
+        }
+        .about-timeline::after{
+            width: 11px;
+            height: 11px;
+                    top: 3px;
+        left: -7px;
+        }
+        .yellow{
+            margin-bottom: 59px;
+        }
+        
+    }
 
 }
 

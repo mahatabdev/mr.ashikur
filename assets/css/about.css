@@ -56,7 +56,8 @@
     .about-details-img1 {
         margin-top: -215px;
     }
-    .about-details-img2{
+
+    .about-details-img2 {
         position: absolute;
         top: 53px;
         left: 314px;
@@ -75,9 +76,7 @@
         border: none;
     }
 
-    td {
-        
-    }
+    td {}
 
     .contact-table td {
         padding: 6px 0px;
@@ -111,9 +110,105 @@
     .contact-table .value a:hover {
         text-decoration: underline;
     }
-    .btn{
+
+    .btn {
         padding: 10px 16px 10px 21px;
-        margin:-100px 0px 0px 440px;
+        margin: -100px 0px 0px 440px;
     }
 
+    .horizontal {
+        height: 1px;
+        margin-top: 55px;
+        margin-bottom: 73px;
+        background-color: #7a7a7a;
+    }
+
+}
+
+/* ending about-details */
+
+/* starting about experience */
+
+.about-experience {
+    h2 {
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 40px;
+        color: #353535;
+        margin-bottom: 57px;
+    }
+
+    .date {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 190%;
+        padding-left: 10px;
+    }
+
+    
+
+    .heading {
+        margin: 10px 0px 16px;
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 180%;
+        color: #353535;
+    }
+
+    .details {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 200%;
+        color: #7a7a7a;
+        /* margin-bottom: 47px; */
+    }
+
+    .about-timeline {
+        border-left: 2px dashed #7a7a7a;
+        position: relative;
+        /* padding-left: 48px;
+        padding-right: 74px;
+        padding-bottom: 47px; */
+        padding: 0px 74px 47px 48px;
+        width: 96%;
+        margin: auto;
+    }
+
+    .about-timeline::before {
+        content: '';
+        display: block;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        position: absolute;
+        top: -3px;
+        left: -18px;
+        border: 2px dashed #7a7a7a;
+        background-color: white;
+    }
+
+    .about-timeline::after {
+        content: '';
+        display: block;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        position: absolute;
+        top: 5px;
+        left: -9px;
+        background-color: #52ab70;
+    }
+    .red::after{
+        background-color:#f17676;
+    }
+    .yellow{
+        padding-bottom: 0px;
+        margin-bottom: 120px;
+    }
+    .yellow::after{
+        background-color:#ffd233;
+    }
 }
