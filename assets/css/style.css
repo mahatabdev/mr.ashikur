@@ -538,20 +538,20 @@ ol {
 
 }
 
-.expert-area .ex {
+/* .expert-area .ex {
     display: flex;
-    /* margin-top: 51px; */
+    margin-top: 51px;
     margin-bottom: 11px;
-}
+} */
 
-.expert-area .ex {
+.expert-area .skill {
     font-size: 18px;
+    position: relative;
 }
 
 .expert-area .skill-name {
     font-family: var(--font-family);
     font-weight: 600;
-
     line-height: 180%;
     color: #353535;
 }
@@ -564,65 +564,70 @@ ol {
     color: #f16500;
 }
 
-.expert-area .figma .skill-percentage {
-    margin-left: 62%;
-
-}
-
-.expert-area .progress-bar {
+.expert-area .skill::before{
+    content: '';
+    display: block;
+    position: absolute;
     height: 6px;
-    background-color: #D9D9D9;
+    width: 100%;
     border-radius: 50px;
+    background-color: #d9d9d9;
+    top: 40px;
+}
+.expert-area .skill::after{
+    content: '';
+    display: block;
+    position: absolute;
+    height: 6px;
+    width: 85%;
+    border-radius: 50px;
+    background-color:  #f16500;
+    top: 40px;
 }
 
-.expert-area .progress {
-    height: 100%;
-    border-radius: 50px;
-}
-
-.expert-area .figma .progress {
+.expert-area .figma::after {
     width: 85%;
     background-color: orange;
 }
+.expert-area .figma .skill-percentage {
+    padding-left: 62%;
 
-
-.expert-area .photoshop .progress {
+}
+.expert-area .photoshop::after {
     width: 75%;
     background: #03249b;
 }
 
 .expert-area .photoshop .skill-percentage {
-    margin-left: 41%;
+    padding-left: 41%;
     color: #03249b;
 }
-
-
-.expert-area .xd .progress {
+.expert-area .xd::after {
     width: 80%;
     background-color: #700D60;
 }
 
 .expert-area .xd .skill-percentage {
-    margin-left: 65%;
+    padding-left: 65%;
     color: #700D60;
 }
 
-.expert-area .xd .ex .skill-name {
+.expert-area .xd .skill-name {
     color: #700D60;
 }
 
 
-.expert-area .illustrator .progress {
+.expert-area .illustrator::after {
     width: 70%;
     background: #234bda;
 }
 
 .expert-area .illustrator .skill-percentage {
-    margin-left: 39%;
+    padding-left: 39%;
     color: #234bda;
 }
 
-.expert-area .illustrator .ex .skill-name {
+.expert-area .illustrator .skill-name {
     color: #234bda;
 }
 
@@ -634,7 +639,7 @@ ol {
 /* starting design */
 .service-area {
     background: #fff7d5;
-    margin: 102px 0px 0px;
+    margin: 146px 0px 0px;
     padding: 75px 0px 103px;
 }
 

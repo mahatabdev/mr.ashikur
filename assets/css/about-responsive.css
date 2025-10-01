@@ -135,6 +135,24 @@
         
     }
 
+    /* ending about-experince */
+
+    /* starting about-skill */
+
+    .about-skill{
+        .written .heading {
+            font-size: 14px;
+        }
+        .written .percentage{
+            font-size: 14px;
+        }
+        .photoshop{
+            margin-bottom: 87px;
+        }
+    }
+
+    /* ending about-skill */
+
 }
 
 @media (max-width: 410px) {
@@ -148,5 +166,10 @@
         .contact-table .value {
             font-size: 10px;
         }
+    }
+}
+@media (max-width: 335px) {
+    .about-skill .photoshop .percentage{
+        padding-left: 45%;
     }
 }

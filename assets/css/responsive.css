@@ -318,12 +318,16 @@
 
     .work .timeline .duration::before {
         top: 0px;
-        left: -35px;
+        left: -26px;
+        width: 23px;
+        height: 23px;
     }
 
     .work .timeline .duration::after {
-        top: 10px;
-        left: -24px;
+        top: 6px;
+        left: -20px;
+        width: 11px;
+        height: 11px;
     }
 
     /* ending wordk */
@@ -366,7 +370,7 @@
         color: black;
     }
 
-    .expert-area .percentage .ex {
+    .expert-area .percentage .skill {
         font-size: 14px;
     }
 
@@ -374,7 +378,7 @@
 
     /* starting service-area*/
     .service-area {
-        margin: 43px 0px 0px;
+        margin: 67px 0px 0px;
         padding: 34px 0px 40px;
     }
 

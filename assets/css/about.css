@@ -146,7 +146,7 @@
         padding-left: 10px;
     }
 
-    
+
 
     .heading {
         margin: 10px 0px 16px;
@@ -201,14 +201,103 @@
         left: -9px;
         background-color: #52ab70;
     }
-    .red::after{
-        background-color:#f17676;
+
+    .red::after {
+        background-color: #f17676;
     }
-    .yellow{
+
+    .yellow {
         padding-bottom: 0px;
         margin-bottom: 120px;
     }
-    .yellow::after{
-        background-color:#ffd233;
+
+    .yellow::after {
+        background-color: #ffd233;
+    }
+}
+
+/* ending about-experience */
+
+/* starting about-skill */
+.about-skill {
+    .written {
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+    .written .heading {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 180%;
+        color: #353535;
+    }
+
+    .written .percentage {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 180%;
+        text-align: center;
+        
+    }
+    
+
+    .written::before {
+        content: '';
+        display: block;
+        height: 4px;
+        /* width: 362px; */
+        width: 100%;
+        position: absolute;
+        border: 4px solid #d9d9d9;
+        top: 44px;
+        border-radius: 20px;
+    }
+
+    .written::after {
+        content: '';
+        display: block;
+        height: 4px;
+        position: absolute;
+        border: 4px solid;
+        top: 44px;
+        border-radius: 20px;
+    }
+
+    .figma::after {
+        border-color: #f16500;
+        width: 95%;
+    }
+    .figma .percentage{
+        color: #f16500;
+        padding-left: 75%;
+    }
+    .xd::after{
+        border-color:  #700d60;
+        width: 80%;
+    }
+    .xd .percentage{
+        color: #700d60;
+        padding-left: 68%;
+    }
+    .illustrator::after{
+        border-color: #efc003;
+        width: 85%;
+    }
+    .illustrator .percentage{
+        color: #efc003;
+        padding-left: 42%;
+    }
+    .photoshop::after{
+        border-color: #03249b;
+        width: 95%;
+    }
+    .photoshop .percentage{
+        color: #03249b;
+        padding-left: 50%;
+    }
+    .photoshop{
+        margin-bottom: 138px;
     }
 }
