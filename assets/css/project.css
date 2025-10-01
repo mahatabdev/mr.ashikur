@@ -1,0 +1,54 @@
+/* starting project-btn */
+.project-btn {
+    .border-none {
+        border: none;
+        margin: 0 17px;
+        padding: 16px 40px;
+    }
+
+    .btn-1 {
+        padding: 15px 60px;
+    }
+
+    .btn-container {
+        margin-bottom: 67px;
+    }
+
+}
+
+/* ending project-btn */
+
+
+/* starting project-card */
+
+.project-card {
+    p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 15px;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #7a7a7a;
+        margin-top: 22px;
+        margin-bottom: 6px;
+    }
+
+    h5 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 24px;
+        color: #353535;
+    }
+    .box{
+        margin-bottom: 85px;
+    }
+    .box-line-3{
+        margin-bottom: 143px;
+    }
+    .box-col-1{
+        margin-right: auto;
+    }
+    .box-col-2{
+        margin-left: auto;
+    }
+}
