@@ -1,0 +1,144 @@
+.blog-heading {
+    .container {
+        margin-bottom: 71px;
+    }
+
+}
+
+/* starting blog-titel */
+
+.blog-titel {
+    .container {
+        margin-bottom: 109px;
+    }
+
+    h3 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 164%;
+        color: #353535;
+    }
+
+    .para {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 200%;
+        color: #7a7a7a;
+        margin: 30px 0px 40px;
+    }
+
+    .date {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 190%;
+        color: #7a7a7a;
+        padding: 0 14px;
+    }
+
+    .name {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 190%;
+        color: #353535;
+    }
+
+    span {
+        margin-bottom: -10px;
+    }
+}
+
+/* ending blog-titel */
+
+/* starting blog-card */
+
+.blog-card {
+    .box {
+        margin-bottom: 95px;
+    }
+
+    .box1 {
+        padding-right: 77px;
+
+    }
+
+    .box2 {
+        padding: 0px 45px;
+    }
+
+    .box3 {
+        padding-left: 82px;
+    }
+
+    h4 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 190%;
+        color: #353535;
+        margin-top: 35px;
+    }
+
+    .para {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 200%;
+        color: #7a7a7a;
+        margin: 9px 0px 24px;
+    }
+
+    .date {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 190%;
+        color: #7a7a7a;
+        padding: 0px 27px 0px 20px;
+    }
+
+    .name {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 190%;
+        color: #353535;
+    }
+    .read{
+        display: none;
+    }
+    .img {
+        position: relative;
+        display: inline-block;
+    }
+
+    .img .hidden {
+        position: absolute;
+        color: white;
+        top: -83px;
+        left: 138px;
+        opacity: 0;
+        transition: 1s ease-out;
+
+    }
+
+    .img:hover .hidden {
+        opacity: 1;
+    }
+
+    .img:hover img {
+        transition: 1s ease-out;
+        filter: brightness(0.3);
+    }
+}
+
+/* ending blog-card */
+
+footer{
+    .b-footer{
+        margin-top: 42px;
+    }
+}

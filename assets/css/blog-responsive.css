@@ -1,0 +1,121 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .blog-heading {
+        .container {
+            margin-bottom: 36px;
+        }
+    }
+
+    /* starting blog-titel; */
+    .blog-titel {
+        .container {
+            margin-bottom: 60px;
+        }
+
+        img {
+            width: 343px;
+        }
+
+        .img {
+            text-align: left;
+            margin-bottom: 23px;
+        }
+
+        h3 {
+            font-size: 18px;
+        }
+
+        .para {
+            font-size: 15px;
+            margin: 14px 0px 20px;
+        }
+
+        .date {
+            font-size: 14px;
+            padding: 0px 40px 0px 12px;
+        }
+
+        .name {
+            font-size: 14px;
+        }
+
+    }
+
+    /* ending blog-titel */
+
+    /* starting blog-card */
+
+    .blog-card {
+        .box {
+            margin-bottom: 27px;
+            padding: 0px 12px;
+            display: flex;
+        }
+
+        h4 {
+            font-size: 13px;
+            /* margin-top: 0px; */
+        }
+
+        .para {
+            display: none
+        }
+
+        .date {
+            padding: 0px 16px 0px 7px;
+            font-size: 10px;
+        }
+
+        .name {
+            font-size: 10px;
+        }
+
+        .img img {
+            width: 163px;
+        }
+
+        .written {
+            padding-left: 17px;
+        }
+
+        .written .blog-written-titel {
+            margin-top: -78px;
+        }
+
+        .read {
+            display: block;
+            margin-top: 81px;
+        }
+
+        .read {
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 190%;
+            color: #353535;
+        }
+
+
+        .img .hidden {
+            display: hidden;
+        }
+
+        .img:hover .hidden {
+            opacity: 1;
+        }
+
+        .img:hover img {
+            filter: brightness(1);
+        }
+
+        .blog-hidden {
+            display: none;
+        }
+    }
+
+    /* ending blog-card */
+    footer{
+        .b-footer{
+            margin-top: 57px;
+        }
+    }
+}
