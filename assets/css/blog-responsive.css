@@ -113,9 +113,24 @@
     }
 
     /* ending blog-card */
-    footer{
-        .b-footer{
+    footer {
+        .b-footer {
             margin-top: 57px;
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .blog-card {
+        .img img {
+            width: 120px;
+        }
+
+        .date {
+            padding: 0px 5px;
+        }
+        .read{
+            margin-top: 54px;
         }
     }
 }
