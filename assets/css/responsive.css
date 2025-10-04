@@ -700,6 +700,7 @@
     .footer .right-side-start {
         justify-content: start;
     }
+
     .footer .footerhide1,
     .footer .footerhide2,
     .footer .footerhide3 {
@@ -721,4 +722,21 @@
         width: 124px;
     }
 
+}
+
+@media (max-width: 375px) {
+
+    .blog .blog-main .blog-img img {
+        width: 120px;
+    }
+
+    .blog .blog-main .blog-written .blog-written-titel .date {
+        padding: 0px 5px;
+    }
+
+    .blog .blog-main h5 {
+        font-size: 13px;
+        margin: 2px 0px 6px;
+
+    }
 }

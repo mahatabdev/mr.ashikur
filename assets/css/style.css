@@ -739,9 +739,13 @@ ol {
         color: #7a7a7a;
     }
 }
-
-.feedback .col-lg-8 {
-    padding: 97px 0px 0px 99px;
+.feedback .col-lg-4{
+    width: 440px;
+    margin-right: 94px;
+}
+.feedback .col-lg-6 {
+    /* padding: 97px 0px 0px 99px; */
+    padding-top: 97px;
 
     .pa-1 {
         font-family: var(--font-family);
@@ -1038,6 +1042,11 @@ ol {
 .footer .middle {
     /* margin: 0px 15% 0 1%; */
     margin-left: -7%;
+    /* width: 440px; */
+    /* display: flex; */
+}
+.footer .middle-written{
+    padding-left: 90px;
 }
 
 .footer .follow .icon a {
