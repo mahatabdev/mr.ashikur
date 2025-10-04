@@ -323,14 +323,14 @@ ol {
 
 .project .project-written .project-line {
     position: absolute;
-    right: 358px;
+    right: 26%;
     bottom: 80px;
 }
 
 .project .project-written .project-ellipse {
     position: absolute;
     top: -37px;
-    right: 234px;
+    right: 17%;
 }
 
 /* ending project */
@@ -528,8 +528,8 @@ ol {
 
 .expert-area .percentage .education {
     border: none;
-    padding: 15px 40px;
-    margin-left: 32px;
+    /* padding: 15px 40px; */
+    /* margin-left: 32px; */
 }
 
 .expert-area .skill {
@@ -856,7 +856,7 @@ ol {
 
 .blog .blog-2 {
     padding-right: 0px;
-    padding-left: 45px;
+    padding-left: 3%;
 }
 
 .card-body {
@@ -1014,7 +1014,7 @@ ol {
     padding: 16px 20px 16px 32px;
 }
 
-.footer .right-side-start .anchor {
+.footer .right-side-start  {
     display: flex;
     justify-content: end;
 }
@@ -1032,11 +1032,12 @@ ol {
 
 .footer .left-side-end {
     margin-top: 94px;
-    gap: 175px;
+    gap: 26%;
 }
 
 .footer .middle {
-    margin: 0px 200px 0px 20px;
+    /* margin: 0px 15% 0 1%; */
+    margin-left: -7%;
 }
 
 .footer .follow .icon a {
@@ -1053,8 +1054,9 @@ ol {
 .footer .follow {
     display: flex;
     align-items: center;
-    padding-left: 43px;
+    /* padding-left: 5%; */
     margin: 87px 0px 0px;
+    justify-content: end;
 }
 
 .footer .follow .icons {

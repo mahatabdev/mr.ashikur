@@ -689,6 +689,7 @@
     .footer .follow {
         padding-left: 0px;
         margin: 32px 0px 0px;
+        justify-content: start;
     }
 
     .footer .follow span {
@@ -696,7 +697,7 @@
 
     }
 
-    .footer .right-side-start .anchor {
+    .footer .right-side-start {
         justify-content: start;
     }
     .footer .footerhide1,
